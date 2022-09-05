@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7315720275.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Comfortaa:wght@500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="../code/css/EDGE_OLD.css">
+
+  <title>EDGE Template</title>
+</head>
+
+<body>
+  <main class="container-fluid">
+    <!-- ACCORDIONS  dynamic -->
+    <section>
+      <p class="display-4 mt-5">Accordions</p>
+      <!-- ACCORDIONS  start -->
+      <div class="row mb-5 generalAccordion">
+        <div class="col-12">
+          <button class="btn btn-sm" type="button" data-bs-toggle="collapse" data-bs-target=".accordion-collapse"
+            aria-expanded="true" aria-controls="collapseOne collapseTwo">Open/Close</button>
+          <div class="accordion" id="accordionReferences">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Accordion Item #1 with h3
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut pellentesque urna. Suspendisse
+                    quis quam risus. Aliquam vitae neque a magna tincidunt scelerisque. Praesent in vulputate lorem, eu
+                    scelerisque augue. Etiam dapibus leo et tortor bibendum, at finibus ex egestas. Vestibulum auctor
+                    urna lorem, vel imperdiet ex facilisis non. Fusce a turpis quis leo interdum suscipit. Fusce viverra
+                    feugiat nibh, posuere malesuada risus imperdiet auctor.</p>
+
+                </div> <!-- accordion-body end -->
+              </div>
+            </div> <!-- accordion-item 1 end -->
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2 with h4
+                </button>
+              </h4>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                <div class="accordion-body">
+                  <p>Aenean eu finibus risus. Duis in nibh mattis, vestibulum libero sit amet, tempus ligula. Sed quis
+                    purus tempus, facilisis erat quis, lacinia lorem. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Ut interdum turpis dapibus enim mollis finibus.
+                    Pellentesque non tellus lacus. Praesent maximus quis orci vitae egestas. Morbi blandit id ligula
+                    eget fringilla. Aenean odio tellus, tempor ut ligula vel, egestas molestie sapien. Nulla convallis
+                    nisi dui, consequat dapibus lorem laoreet vitae. Sed scelerisque eros a cursus congue. Duis eget
+                    justo ornare, vestibulum diam nec, placerat enim.</p>
+                </div> <!-- accordion-body end -->
+              </div>
+            </div> <!-- accordion-item 2 end -->
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #2 with h5
+                </button>
+              </h5>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                <div class="accordion-body">
+                  <p>Aenean eu finibus risus. Duis in nibh mattis, vestibulum libero sit amet, tempus ligula. Sed quis
+                    purus tempus, facilisis erat quis, lacinia lorem. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Ut interdum turpis dapibus enim mollis finibus.
+                    Pellentesque non tellus lacus. Praesent maximus quis orci vitae egestas. Morbi blandit id ligula
+                    eget fringilla. Aenean odio tellus, tempor ut ligula vel, egestas molestie sapien. Nulla convallis
+                    nisi dui, consequat dapibus lorem laoreet vitae. Sed scelerisque eros a cursus congue. Duis eget
+                    justo ornare, vestibulum diam nec, placerat enim.</p>
+                </div> <!-- accordion-body end -->
+              </div>
+            </div> <!-- accordion-item 3 end -->
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDIONS end -->
+    </section>
+    <!-- BUTTONS  dynamic -->
+    <section>
+      <p class="display-4 mt-5">Buttons</p>
+      <div class="row">
+        <div class="col-12">
+          <!-- BUTTONS start -->
+          <div class="d-grid gap-2 d-md-block">
+            <a href="#" role="button" class="btn btn-sm">Small Button</a>
+            <a href="#" role="button" class="btn btn-sm"><i class="fa-solid fa-calendar" aria-hidden="true"></i>&nbsp;
+              Small
+              Button</a>
+            <a href="#" role="button" class="btn">Medium Button</a>
+            <a href="#" role="button" class="btn"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>&nbsp;
+              Medium
+              Button</a>
+            <a href="#" role="button" class="btn btn-lg">Large Button</a>
+            <a href="#" role="button" class="btn btn-lg"><i class="fa-solid fa-star" aria-hidden="true"></i>&nbsp; Large
+              Button</a>
+          </div><!-- BUTTONS end -->
+          <!-- BUTTONS start -->
+          <div class="d-grid gap-2 col-12 col-md-6 mx-auto">
+            <a href="#" role="button" class="btn btn-sm"><i class="fa-solid fa-badge-check"
+                aria-hidden="true"></i>&nbsp;
+              Small Button</a>
+            <a href="#" role="button" class="btn">Medium Button</a>
+            <a href="#" role="button" class="btn btn-lg"><i class="fa-solid fa-house-chimney-heart"
+                aria-hidden="true"></i>&nbsp; Large Button</a>
+          </div><!-- BUTTONS end -->
+        </div>
+      </div>
+    </section>
+    <!-- CALLOUT static -->
+    <section>
+      <p class="display-4 mt-5">Callouts</p>
+      <!-- CALLOUT  start -->
+      <div class="row">
+        <div class="callout col-10 col-md-8">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget mattis nunc. Donec id erat velit. Cras
+            at massa gravida, rutrum sapien eget, hendrerit nibh. Aenean sit amet risus nisl. </p>
+        </div>
+        <div class="callout-bb col-7 col-md-5"></div>
+      </div>
+      <!-- CALLOUT end -->
+    </section>
+    <!-- CAROUSELS dynamic -->
+    <section>
+      <p class="display-4 mt-5">Carousels</p>
+      <!-- CAROUSEL start -->
+      <div class="row">
+        <div class="col-11 col-md-8 col-lg-6 mx-auto">
+          <div id="carousel01" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel01" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"><img src="../media/images/autonomoose-model-1920.jpg" class="img-fluid mx-auto"
+                  alt="Autonomoose: Waterloo's self-driving vehicle"></button>
+              <button type="button" data-bs-target="#carousel01" data-bs-slide-to="1" aria-label="Slide 2"><img
+                  src="../media/images/robots-that-help-get-food-on-shelves.jpg" class="img-fluid mx-auto"
+                  alt="Tall robot in a grocery store aisle."></button>
+              <button type="button" data-bs-target="#carousel01" data-bs-slide-to="2" aria-label="Slide 3"><img
+                  src="../media/images/african-american-woman-sitting-front-open-laptop.jpg" class="img-fluid mx-auto"
+                  alt="A person sitting at the computer while working from home."></button>
+            </div><!-- end carousel-indicators -->
+            <div class="carousel-inner">
+              <!-- start carousel-item 1 -->
+              <div class="carousel-item active" data-bs-interval="false">
+                <div class="row carousel-info">
+                  <div class="col-12 carousel-text text-center">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="col-12 carousel-img">
+                    <img src="../media/images/autonomoose-model-1920.jpg" class="d-block w-100"
+                      alt="Autonomoose: Waterloo's self-driving vehicle">
+                  </div>
+                  <div class="col-12 figure-caption">
+                    <p>Cras consequat id tortor non sodales. Integer pulvinar risus eu consectetur pharetra. Donec ut
+                      risus pharetra, pharetra urna non, aliquam arcu. Etiam quis scelerisque metus, ut volutpat erat.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- end carousel-item 1 -->
+              <!-- start carousel-item 2 -->
+              <div class="carousel-item" data-bs-interval="false">
+                <div class="row carousel-info">
+                  <div class="col-12 carousel-text text-center">
+                    <h3>heading h3</h3>
+                  </div>
+                  <div class="col-12 carousel-img">
+                    <img src="../media/images/robots-that-help-get-food-on-shelves.jpg" class="d-block w-100"
+                      alt="Tall robot in a grocery store aisle.">
+                  </div>
+                  <div class="col-12 figure-caption">
+                    <p>Duis volutpat eros leo, non malesuada nisi condimentum accumsan. Donec pulvinar porta porttitor.
+                    </p>
+                  </div>
+                </div>
+              </div> <!-- end carousel-item 2 -->
+              <!-- start carousel-item 3 -->
+              <div class="carousel-item" data-bs-interval="false">
+                <div class="row carousel-info">
+                  <div class="col-12 carousel-text text-center">
+                    <h4>Question as an h4 venenatis ipsum condimentum, porttitor turpis?</h4>
+                  </div>
+                  <div class="col-12 carousel-img">
+                    <img src="../media/images/african-american-woman-sitting-front-open-laptop.jpg"
+                      class="d-block w-100" alt="A person sitting at the computer while working from home.">
+                  </div>
+                  <div class="col-12 figure-caption">
+                    <p>Morbi risus nulla, pretium ac tortor eget, hendrerit eleifend magna. Donec pellentesque sed risus
+                      eget gravida. Pellentesque eu ultricies libero. Nullam elementum elit ligula, vel bibendum enim
+                      tempor et. Quisque venenatis sapien justo, elementum pretium sapien sollicitudin a. Maecenas eu
+                      risus ipsum. Donec ultricies faucibus leo eu pretium.</p>
+                  </div>
+                </div>
+              </div> <!-- end carousel-item 3 -->
+            </div> <!-- end carousel-inner -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel01" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel01" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CAROUSEL end -->
+    </section>
+    <!-- CLICK & REVEAL dynamic -->
+    <section>
+      <p class="display-4 mt-5">Click & Reveal</p>
+      <!-- CLICK & REVEAL  start -->
+      <div class="clickreveal row">
+        <div class="col-md-4 px-4">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-context-tab" data-bs-toggle="pill" data-bs-target="#pills-context"
+                type="button" role="tab" aria-controls="pills-context" aria-selected="false"><img
+                  src="../media/images/Context_Specific_Skills_NB_colour_PNG.png" class="img-fluid"
+                  alt="Discipline And Context-specific Skills"></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContext">
+            <div class="tab-pane fade" id="pills-context" role="tabpanel" aria-labelledby="pills-context-tab"
+              tabindex="0">
+              <h5>Heading 5</h5>
+              <div class="tab-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut pellentesque urna. Suspendisse quis
+                  quam risus. Aliquam vitae neque a magna tincidunt scelerisque. Praesent in vulputate lorem, eu
+                  scelerisque augue. Etiam dapibus leo et tortor bibendum, at finibus ex egestas. Vestibulum auctor urna
+                  lorem, vel imperdiet ex facilisis non. Fusce a turpis quis leo interdum suscipit. Fusce viverra
+                  feugiat nibh, posuere malesuada risus imperdiet auctor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-information-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-information" type="button" role="tab" aria-controls="pills-information"
+                aria-selected="false"><img src="../media/images/Data_Literacy_NB_colour_PNG.png" class="img-fluid"
+                  alt="Information And Data literacy"></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabInformation">
+            <div class="tab-pane fade" id="pills-information" role="tabpanel" aria-labelledby="pills-information-tab"
+              tabindex="0">
+              <h5>Heading 5</h5>
+              <div class="tab-body">
+                <p>Aenean eu finibus risus. Duis in nibh mattis, vestibulum libero sit amet, tempus ligula. Sed quis
+                  purus tempus, facilisis erat quis, lacinia lorem. Class aptent taciti sociosqu ad litora torquent per
+                  conubia nostra, per inceptos himenaeos. Ut interdum turpis dapibus enim mollis finibus. Pellentesque
+                  non tellus lacus. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 px-4">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-technological-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-technological" type="button" role="tab" aria-controls="pills-technological"
+                aria-selected="false"><img src="../media/images/Tech_Agility_NB_colour_PNG.png" class="img-fluid"
+                  alt="Technological Agility"></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabTechnological">
+            <div class="tab-pane fade" id="pills-technological" role="tabpanel"
+              aria-labelledby="pills-technological-tab" tabindex="0">
+              <h5>Heading 5</h5>
+              <div class="tab-body">
+                <p>Praesent maximus quis orci vitae egestas. Morbi blandit id ligula eget fringilla. Aenean odio tellus,
+                  tempor ut ligula vel, egestas molestie sapien. Nulla convallis nisi dui, consequat dapibus lorem
+                  laoreet vitae. Sed scelerisque eros a cursus congue. Duis eget justo ornare, vestibulum diam nec,
+                  placerat enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CLICK & REVEAL  end -->
+    </section>
+    <!-- CONNECT static -->
+    <section>
+      <p class="display-4 mt-5">Connect</p>
+      <!-- CONNECT START -->
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <table class="connect">
+            <tr class="heading">
+              <td></td>
+              <td class="circle">
+                <h3>Heading 3</h3>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <div class="dottedConnector"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="dottedConnectorV"></div>
+              </td>
+              <td>
+                <div class="dottedConnectorV"></div>
+              </td>
+              <td>
+                <div class="dottedConnectorV"></div>
+              </td>
+            </tr>
+            <tr class="text-center">
+              <td class="connectContent">
+                <h4>Heading 4</h4>
+                <p>Phasellus non magna at risus imperdiet mattis. Proin ac libero quis leo blandit porttitor feugiat in
+                  risus. Curabitur feugiat erat nec tempor porttitor. </p>
+                <i class="fa-solid fa-plus" aria-label="plus"></i>
+              </td>
+              <td class="connectContent">
+                <h4>Heading 4</h4>
+                <p>Phasellus ut mi lacinia, porta ligula non, sodales eros. Nam euismod ipsum sed turpis aliquet, nec
+                  mollis nunc auctor. Integer est metus, interdum eu faucibus vitae, consequat vel massa.</p>
+                <i class="fa-solid fa-plus" aria-label="plus"></i>
+              </td>
+              <td class="connectContent">
+                <h4>Heading 4</h4>
+                <p>In dignissim nisl ut augue elementum scelerisque. In auctor bibendum nibh.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- CONNECT END -->
+    </section>
+    <!-- EMBEDDED VIDEOS dynamic -->
+    <section>
+      <p class="display-4 mt-5">Embedded Videos</p>
+      <!-- EMBEDDED VIDEOS  start -->
+      <div class="row video">
+        <div class="col-12 p-0">
+          <h3>Title of Video</h3>
+        </div>
+        <div class="video-content col-11 mx-auto">
+          <p>Watch the video about Nunc viverra risus urna, id dignissim lacus aliquam sed (00:00)</p>
+          <div class="ratio ratio-16x9">
+            <video controls poster="../media/images/ArtsVideoPoster.png">
+              <source src="../media/videos/01_Dean_of_Arts_Intro-Arts_First.mp4" type="video/mp4">Your
+              browser does not
+              support the
+              video tag.
+            </video>
+          </div>
+          <!-- TRANSCRIPT start -->
+          <div class="accordion" id="AccordionTranscript01">
+            <!-- start accordion-item 1 -->
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingTranscript01">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTranscript01" aria-expanded="false" aria-controls="collapseTranscript01">
+                  Video Transcript
+                </button>
+              </h5>
+              <div id="collapseTranscript01" class="accordion-collapse collapse" aria-labelledby="headingTranscript01">
+                <div class="accordion-body">
+                  <p>In scelerisque nulla lectus, id blandit turpis malesuada quis. Fusce in mi ante. Integer
+                    elementum
+                    ac turpis quis aliquet. Sed mattis ex vitae imperdiet facilisis. Proin aliquet molestie massa,
+                    vitae
+                    porta eros dapibus ut. Donec aliquet et turpis non lacinia. Phasellus at nulla quis turpis
+                    eleifend
+                    ultricies. Nunc nec lorem vitae eros dapibus mattis. Etiam at congue mi. Maecenas vitae odio
+                    leo. Ut
+                    posuere ultricies lectus sit amet vehicula. Phasellus turpis justo, elementum sit amet vehicula
+                    sit
+                    amet, auctor sed tellus. Nunc id dignissim nibh. Phasellus eu tincidunt magna. Nam auctor mauris
+                    eros, in malesuada magna elementum non.</p>
+                  <p>Cras in augue sit amet risus lobortis gravida. Suspendisse efficitur tempus libero, quis
+                    feugiat
+                    nisi scelerisque consequat. Duis tempus metus sed tellus hendrerit cursus. Sed dapibus rhoncus
+                    tellus vitae venenatis. Quisque bibendum ornare nisi eget auctor. Duis non magna rutrum, iaculis
+                    tellus id, ullamcorper nisl. Aliquam quis quam dapibus, efficitur libero ut, venenatis nisi.
+                    Aliquam
+                    venenatis arcu eu enim pulvinar, eu vehicula lacus consectetur. Aenean ullamcorper ipsum nec
+                    lorem
+                    malesuada, ac pretium felis mattis. Donec porta augue non gravida dapibus. Nulla dignissim
+                    tortor in
+                    sem laoreet semper. Fusce in efficitur diam. Etiam dictum imperdiet nisi, non auctor dui
+                    interdum
+                    sit amet. Proin et tincidunt lectus.</p>
+                </div> <!-- end accordion-body -->
+              </div>
+            </div> <!-- end accordion-item -->
+          </div>
+          <!-- TRANSCRIPT end -->
+        </div>
+      </div>
+      <!-- EMBEDDED VIDEOS end -->
+    </section>
+    <!-- FOCUS static -->
+    <section>
+      <p class="display-4 mt-5">Focus</p>
+      <!-- FOCUS start -->
+      <div class="row">
+        <div class="focus col-8 row d-flex align-items-center">
+          <h3>Heading 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut pellentesque urna. Suspendisse quis quam
+            risus. Aliquam vitae neque a magna tincidunt scelerisque. Praesent in vulputate lorem, eu scelerisque augue.
+            Etiam dapibus leo et tortor bibendum, at finibus ex egestas. Vestibulum auctor urna lorem, vel imperdiet ex
+            facilisis non. Fusce a turpis quis leo interdum suscipit. Fusce viverra feugiat nibh, posuere malesuada
+            risus imperdiet auctor.</p>
+        </div>
+      </div>
+      <!-- FOCUS end -->
+    </section>
+    <!-- INFO static -->
+    <section>
+      <p class="display-4 mt-5">Info</p>
+      <!-- INFO start -->
+      <div class="row infoOrange">
+        <div class="col-12 p-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lectus suscipit, faucibus mi id, fermentum
+            nunc. Nulla nec dolor iaculis, venenatis arcu eget, egestas est. Maecenas sit amet justo tempus mauris
+            sagittis blandit. Donec feugiat velit massa, et vehicula eros finibus non. Donec sit amet risus ut elit
+            facilisis aliquet quis a mi. In in porttitor lacus, ac faucibus odio. Maecenas tempor, arcu et ultricies
+            pretium, erat nisl gravida ligula, nec tempor risus nisi nec felis. Proin lorem metus, ultrices id euismod
+            malesuada, tempor at metus. Vestibulum vel sapien non lorem finibus fringilla. Sed ac sapien fringilla,
+            semper lacus quis, pellentesque eros. Morbi pellentesque faucibus justo, quis feugiat arcu mattis et.
+            Vivamus blandit tellus ut ornare consequat. Praesent pretium, erat a lacinia vestibulum, arcu orci egestas
+            tortor, et viverra magna est ut mi. Cras id scelerisque urna. Phasellus vel diam tortor.</p>
+        </div>
+      </div>
+      <!-- INFO end -->
+      <!-- INFO start -->
+      <div class="row infoGrey">
+        <div class="col-12 p-0">
+          <h3 class="text-center">h3 heading</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lectus suscipit, faucibus mi id, fermentum
+            nunc. Nulla nec dolor iaculis, venenatis arcu eget, egestas est. Maecenas sit amet justo tempus mauris
+            sagittis blandit.</p>
+          <p>Donec feugiat velit massa, et vehicula eros finibus non. Donec sit amet risus ut elit
+            facilisis aliquet quis a mi. In in porttitor lacus, ac faucibus odio. Maecenas tempor, arcu et ultricies
+            pretium, erat nisl gravida ligula, nec tempor risus nisi nec felis. Proin lorem metus, ultrices id euismod
+            malesuada, tempor at metus. Vestibulum vel sapien non lorem finibus fringilla. Sed ac sapien fringilla,
+            semper lacus quis, pellentesque eros.</p>
+          <div class="d-flex justify-content-end"><a href="#" role="button" class="btn btn-lg">Large Button</a></div>
+        </div>
+      </div>
+      <!-- INFO end -->
+    </section>
+    <!-- LIST GROUPS static -->
+    <section>
+      <p class="display-4 mt-5">List Groups</p>
+      <!-- LIST GROUP start -->
+      <div class="row mb-5">
+        <div class="col-10 mx-auto">
+          <ul class="list-group">
+            <li class="list-group-item row">
+              <div class="col-md-2 float-start">
+                <p class="display-6">1</p>
+              </div>
+              <div class="col-md-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </li>
+            <li class="list-group-item row">
+              <div class="col-md-2 float-start">
+                <p class="display-6"><i class="fa-solid fa-question" aria-hidden="true"></i></p>
+              </div>
+              <div class="col-md-10">
+                <p>Donec ut pellentesque urna. Suspendisse quis quam risus. Aliquam vitae neque a magna tincidunt
+                  scelerisque?</p>
+              </div>
+            </li>
+            <li class="list-group-item row">
+              <div class="col-md-2 float-start">
+                <p class="display-6"><i class="fa-solid fa-check" aria-hidden="true"></i></p>
+              </div>
+              <div class="col-md-10">
+                <h3>Heading 3</h3>
+              </div>
+            </li>
+            <li class="list-group-item row">
+              <div class="col-md-2 float-start">
+                <p class="display-6"><i class="fa-solid fa-circle-info" aria-hidden="true"></i></p>
+              </div>
+              <div class="col-md-10">
+                <h4>Heading 4</h4>
+                <p>Etiam dapibus leo et tortor bibendum, at finibus ex egestas.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- LIST GROUP end -->
+    </section>
+    <!--MULTI-SELECT dynamic-->
+    <section>
+      <p class="display-4 mt-5">Multi-Select</p>
+      <div class="row d-flex align-items-start">
+        <div class="col-8">
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="check01Option01"
+              data-bs-toggle="collapse" data-bs-target="#check01Answer01" aria-controls="check01Answer01"
+              aria-checked="false"> <label class="form-check-label" for="check01Option01"> Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit? </label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="check01Option02"
+              data-bs-toggle="collapse" data-bs-target="#check01Answer02" aria-controls="check01Answer02"
+              aria-checked="false"> <label class="form-check-label" for="check01Option02"> Nullam purus mi, porta id
+              ornare pretium? </label></div>
+          <div class="form-check"><input class="form-check-input" type="checkbox" id="check01Option03"
+              data-bs-toggle="collapse" data-bs-target="#check01Answer03" aria-controls="check01Answer03"
+              aria-checked="false"> <label class="form-check-label" for="check01Option03"> Donec ullamcorper accumsan
+              consectetur? </label></div>
+        </div>
+        <div class="answers col-4">
+          <div id="check01Answer01" class="answer collapse" aria-labelledby="check01Option01">
+            <p>Etiam vitae vulputate lacus, vel fermentum nisl.</p>
+          </div>
+          <div id="check01Answer02" class="answer collapse" aria-labelledby="check01Option02">
+            <p>Sed posuere dolor a diam eleifend, pulvinar scelerisque dui consequat.</p>
+          </div>
+          <div id="check01Answer03" class="answer collapse" aria-labelledby="check01Option03">
+            <p>Maecenas vitae enim ac massa dictum faucibus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--REFLECTION static-->
+    <section>
+      <p class="display-4 mt-5">Reflection</p>
+      <!-- REFLECTION start -->
+      <div class="row reflection d-flex align-items-center">
+        <div class="col-10 col-md-4 ps-0">
+          <p class="reflect">Etiam vitae vulputate lacus, vel fermentum nisl. Sed posuere dolor a diam eleifend,
+            pulvinar scelerisque dui consequat?</p>
+        </div>
+        <div class="col-10 col-md-4 text-center pe-md-5"><i class="fa-duotone fa-globe icon"
+            aria-label="Decorative icon of the world with connections being made."></i>
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="col-10 col-md-4 text-center pe-md-5"><i class="fa-duotone fa-temperature-arrow-up icon"
+            aria-label="Decorative icon of a thermometer with arrow pointing up."></i>
+          <p>Dolor sit amet</p>
+        </div>
+        <div class="col-10 col-md-4 text-center pe-md-5"><i class="fa-duotone fa-podium-star icon"
+            aria-label="Decorative icon of a star on a podium"></i>
+          <p>Consectetur adipiscing</p>
+        </div>
+        <div class="col-10 col-md-4 text-center pe-md-5"><i class="fa-duotone fa-person-cane icon"
+            aria-label="Decorative icon of an elderly person with a cane."></i>
+          <p>Nullam purus mi</p>
+        </div>
+        <div class="col-10 col-md-4 text-center pe-md-5"><i class="fa-duotone fa-brain-circuit icon"
+            aria-label="Decorative icon of brain with a circuit."></i>
+          <p>Sed eros</p>
+        </div>
+      </div>
+      <!-- REFLECTION end -->
+    </section>
+    <!--MATCHING dynamic
+MULTIPLE CHOICE dynamic
+TABLES static
+TIMELINE static
+-->
+    <!-- TYPOGRAPHY static -->
+    <section>
+      <p class="display-4 mt-5">Typography</p>
+      <div class="row">
+        <div class="col-12 p-0">
+          <h1>h1. Bootstrap heading</h1>
+          <h2>h2. Bootstrap heading<span class="diamond"></span></h2>
+          <h3>h3. Bootstrap heading</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h4>h4. Bootstrap heading</h4>
+          <h5>h5. Bootstrap heading</h5>
+          <h6>h6. Bootstrap heading</h6>
+          <p class="lead">
+            This is a lead paragraph. It stands out from regular paragraphs.
+          </p>
+          <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+          <p><del>This line of text is meant to be treated as deleted text.</del></p>
+          <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+          <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+          <p><u>This line of text will render as underlined.</u></p>
+          <p><small>This line of text is meant to be treated as fine print.</small></p>
+          <p><strong>This line rendered as bold text.</strong></p>
+          <p><em>This line rendered as italicized text.</em></p>
+          <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+          </blockquote>
+          <figure>
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="..." class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="display-1">Display 1</p>
+          <p class="display-2">Display 2</p>
+          <p class="display-3">Display 3</p>
+          <p class="display-4">Display 4</p>
+          <p class="display-5">Display 5</p>
+          <p class="display-6">Display 6</p>
+        </div>
+      </div>
+    </section>
+    <!-- Option 1: Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script src="../code/js/EDGE.js"></script>
+  </main>
+</body>
+
+</html>
